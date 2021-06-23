@@ -1,0 +1,5 @@
+<main>
+    <h1>${title}</h1>
+    ${data.map(ceo => `
+    <p>${ceo.name} was CEO of Apple starting in ${ceo.first_year_active}.</p>` ).join('')}
+</main>
